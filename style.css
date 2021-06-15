@@ -1,0 +1,36 @@
+html {
+    background-color: black;
+}
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: aqua;
+}
+
+h5 {
+    color: blueviolet;
+}
+
+h6 {
+    color: red;
+}
+p {
+    color: coral;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button {
+    background-color: chartreuse;
+    font-size: 3rem;
+}
