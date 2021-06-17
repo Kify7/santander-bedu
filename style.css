@@ -1,36 +1,93 @@
-html {
-    background-color: black;
+body {
+  background-color: #fffbf7;
 }
+
 h1 {
-    color: orange;
+  color: #025157;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  font-size: 4rem;
 }
 
 h2 {
-    color: blue;
+  color: blue;
 }
 
 h3 {
-    color: green;
+  color: green;
 }
 
 h4 {
-    color: aqua;
+  color: aqua;
 }
 
 h5 {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 h6 {
-    color: red;
-}
-p {
-    color: coral;
-    font-size: 1rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  color: red;
 }
 
-button {
-    background-color: chartreuse;
-    font-size: 3rem;
+p {
+  color: coral;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.header {
+  margin: 40px 20px 0px 20px;
+  font-size: 0px;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions button {
+    color: #ffff;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+.contenido {
+text-align: center;
+  margin-top: 50px;
 }
