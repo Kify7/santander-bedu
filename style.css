@@ -10,7 +10,10 @@ h1 {
 }
 
 h2 {
-  color: blue;
+  color: #025157;
+  font-size: 30px;
+  margin-bottom: 24px;
+  font-family: 'Alegreya', serif;
 }
 
 h3 {
@@ -41,6 +44,13 @@ li {
   display: inline;
   margin-right: 25px;
   margin-left: 25px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header {
@@ -104,4 +114,15 @@ li {
 .contenido {
   text-align: center;
   margin-top: 200px;
+}
+
+.publicidad {
+  display: flex;
+  margin: 100px 100px 0px 100px;
+}
+
+.video::after {
+  background-image: url('/see_how_it_works.png');
+  width: 100px;
+  height: 20px;
 }
